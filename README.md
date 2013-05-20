@@ -1,6 +1,4 @@
-BarcodeDemo
+Lungo.js and PhoneGap with Barcode Plugin
 ===========
 
-A PhoneGap app demoing the [BarcodeScanner Plugin](http://github.com/wildabeast/BarcodeScanner).
-
-Includes config.xml file for [PhoneGap Build](https://build.phonegap.com).
+Test of a mobile app building with PhoneGap Build width Lungo.js and BarcodeScanner Plugin
