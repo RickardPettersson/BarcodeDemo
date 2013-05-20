@@ -6,7 +6,7 @@
 		<meta name="description" content="Rickard Pettersson testar Lungo.js">
 		<meta name="author" content="Rickard Pettersson @ RickardP.se">
 		<meta name="HandheldFriendly" content="True">
-		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<meta name="format-detection" content="telephone=no">
@@ -16,17 +16,16 @@
 		<link rel="stylesheet" href="css/theme.lungo.css" />
 		<link rel="stylesheet" href="css/lungo.icon.css" />
 		<link rel="stylesheet" href="css/lungo.icon.brand.css" />
-		<link rel="stylesheet" href="css/index.css" />
     </head>
-    <body>
-		<section id="form" data-transition="slide" class="show">
+    <body class="app">
+		<section id="main" data-transition="">
 			<header data-title="Test app"></header>
 			<article id="main-article" class="active">
-				<div id="deviceready" class="blink">
-					<p class="event listening">Connecting to Device</p>
-					<p class="event received">Device is Ready</p>
+				<div id="deviceready">
+					<p class="event listening"><div data-loading=""></div></p>
+					<p class="event received" style="display: none;"><h3>Device is Ready</h3></p>
 				</div>
-				<p><a href="#" id="scan">SCAN SOMETHING!</a></p>
+				<p id="scanButton" style="display: none;"><a href="#" id="scan" class="button">SCAN SOMETHING!</a></p>
 				<p id="info"></p>
 			</article>
 		</section>
@@ -34,7 +33,7 @@
         <script type="text/javascript" src="barcodescanner.js"></script>
         <script type="text/javascript" src="childbrowser.js"></script>
 		<script type="text/javascript" src="js/quo.js"></script>
-		<script type="text/javascript" src="js(lungo.js"></script>
+		<script type="text/javascript" src="js/lungo.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
 
         <script type="text/javascript">
